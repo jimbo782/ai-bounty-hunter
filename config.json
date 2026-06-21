@@ -1,0 +1,33 @@
+{
+  "platforms": {
+    "gitcoin": {
+      "enabled": true,
+      "url": "https://gitcoin.co/api/v0.1/bounties",
+      "filters": {
+        "experience_level": "beginner",
+        "status": "open",
+        "min_amount": 50
+      }
+    },
+    "issuehunt": {
+      "enabled": true,
+      "url": "https://issuehunt.io/api/bounties",
+      "filters": {
+        "difficulty": "easy",
+        "status": "open",
+        "min_amount": 50
+      }
+    }
+  },
+  "bounty_types": [
+    "documentation",
+    "bug_report",
+    "code_analysis",
+    "data_analysis",
+    "content_writing"
+  ],
+  "min_bounty_amount": 50,
+  "auto_submit": true,
+  "review_required": true,
+  "user": "jimbo782"
+}
